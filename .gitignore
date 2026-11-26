@@ -1,0 +1,23 @@
+# ビルド成果物
+build/
+cmake-build-*/
+out/
+
+# CMake 生成物（in-source ビルドしてしまった場合の保険）
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# macOS
+.DS_Store
+
+# エディタ・IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Windows / Visual Studio
+.vs/
+*.user
